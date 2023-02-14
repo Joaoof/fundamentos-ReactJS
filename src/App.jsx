@@ -17,6 +17,10 @@ export function App() {
       <main>
     <Post />
 
+    <Post />
+      </main>
+      <main>
+        
       </main>
       
     </div>
