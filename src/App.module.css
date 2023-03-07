@@ -8,3 +8,10 @@
     gap: 2rem;
     align-items: flex-start;
 }
+
+@media (max-width: 678px) { /* Quando a tela for < 720px */
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+
+}
