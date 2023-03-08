@@ -9,7 +9,12 @@
     align-items: flex-start;
 }
 
-@media (max-width: 678px) { /* Quando a tela for < 720px */
+@media (max-width: 768px) { /* Quando a tela for < 720px */
+
+  html {
+    font-size: 87.5%;
+  }
+
     .wrapper {
       grid-template-columns: 1fr;
     }
